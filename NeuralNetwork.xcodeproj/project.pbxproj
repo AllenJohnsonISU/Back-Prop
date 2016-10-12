@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BA4354D51DAA95C70093AF67 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA4354D41DAA95C70093AF67 /* main.cpp */; };
+		BA4354DD1DAA964A0093AF67 /* NeuralNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA4354DC1DAA964A0093AF67 /* NeuralNetwork.cpp */; };
+		BA4354ED1DAA98150093AF67 /* Perceptron.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA4354EA1DAA98150093AF67 /* Perceptron.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		BA4354D11DAA95C70093AF67 /* NeuralNetwork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeuralNetwork; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4354D41DAA95C70093AF67 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA4354DB1DAA963B0093AF67 /* NeuralNetwork.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NeuralNetwork.hpp; sourceTree = "<group>"; };
+		BA4354DC1DAA964A0093AF67 /* NeuralNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NeuralNetwork.cpp; sourceTree = "<group>"; };
+		BA4354EA1DAA98150093AF67 /* Perceptron.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Perceptron.cpp; path = Perceptron/SimpleNN/Perceptron.cpp; sourceTree = "<group>"; };
+		BA4354EB1DAA98150093AF67 /* Perceptron.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Perceptron.hpp; path = Perceptron/SimpleNN/Perceptron.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				BA4354D41DAA95C70093AF67 /* main.cpp */,
+				BA4354EA1DAA98150093AF67 /* Perceptron.cpp */,
+				BA4354EB1DAA98150093AF67 /* Perceptron.hpp */,
+				BA4354DB1DAA963B0093AF67 /* NeuralNetwork.hpp */,
+				BA4354DC1DAA964A0093AF67 /* NeuralNetwork.cpp */,
 			);
 			path = NeuralNetwork;
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4354D51DAA95C70093AF67 /* main.cpp in Sources */,
+				BA4354ED1DAA98150093AF67 /* Perceptron.cpp in Sources */,
+				BA4354DD1DAA964A0093AF67 /* NeuralNetwork.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
